@@ -1,0 +1,26 @@
+package snakeGame;
+
+public class buffer {
+
+	private String currentDirection="";
+	public buffer() {
+
+	}
+	 void goUp(){
+		currentDirection="up";
+	}	
+	 void goLeft(){
+		currentDirection="up";
+	}
+	 void goDown(){
+		currentDirection="up";
+	}
+	 void goRight(){
+		currentDirection="up";
+	}
+	 String getcurrentDirection(){
+		return currentDirection;
+		 
+	 }
+
+}
